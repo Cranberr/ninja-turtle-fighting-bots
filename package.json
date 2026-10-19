@@ -1,0 +1,17 @@
+{
+  "name": "ninja-turtle-fighting-bots",
+  "version": "3.0.0",
+  "description": "Funny Node.js ninja turtle fighting bot simulator with three versions.",
+  "main": "src/index.js",
+  "bin": { "turtle-bots": "src/cli.js" },
+  "scripts": {
+    "start": "node src/cli.js",
+    "v1": "node src/v1/index.js",
+    "v2": "node src/v2/index.js",
+    "v3": "node src/v3/index.js",
+    "test": "node --test test/"
+  },
+  "engines": { "node": ">=18" },
+  "license": "MIT",
+  "keywords": ["ninja", "turtle", "bot", "fighting", "simulator", "funny"]
+}
